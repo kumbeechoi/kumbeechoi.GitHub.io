@@ -67,8 +67,8 @@ h2 {
 h3 {
     color: #242424;
     font-family: 'Abril Fatface', cursive;
-    font-size: 30px;
-    text-align: left;
+    font-size: 25px;
+    text-align: center;
     margin: 0;
     padding: 30px 0 0px 0px;
   }
@@ -123,6 +123,9 @@ footer p {
 
   main > div > article {
     overflow: visible;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
   }
   
