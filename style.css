@@ -131,7 +131,7 @@ footer p {
   
   main > div > article > section {
     max-width: 80%;
-    margin-left: auto;
+    margin-left: 300px;
     margin-right: auto;
     text-align: center;
   } 
