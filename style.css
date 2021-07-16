@@ -104,6 +104,7 @@ li {
     font-family: 'Roboto Mono', monospace;
     font-size: 20px;
     text-align: left;
+    max-width: 65%;
   }
 
 footer {
@@ -131,4 +132,18 @@ footer p {
     text-align: center;
   } 
 /* Making sure that the text and headers are at the center*/
-  
+
+.map-responsive{
+    overflow:visible;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
