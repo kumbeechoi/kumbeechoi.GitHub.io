@@ -31,7 +31,7 @@ header h2 {
 body {
   margin: auto;
   text-align: center;
-  max-width: 80%;
+  
 } /*I tried to put media at the center*/
 
 nav {
@@ -134,13 +134,13 @@ footer p {
 }
 
 main > div > article {
-  max-width: 90%;
+  max-width: 70%;
   margin: auto;
   overflow: visible;
 }
 
 main > div > article > section {
-  max-width: 100%;
+  max-width: 80%;
   margin: auto;
 }
 /* Making sure that the text and headers are at the center*/
