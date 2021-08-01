@@ -81,7 +81,6 @@ h4 {
 p {
   color: #242424;
   font-family: "Roboto Mono", monospace;
-  
   text-align: left;
   margin: auto;
 }
@@ -134,13 +133,13 @@ footer p {
 }
 
 main > div > article {
-  max-width: 80%;
+  max-width: 100%;
   margin: auto;
   overflow: visible;
 }
 
 main > div > article > section {
-  max-width: 80%;
+  max-width: 100%;
   margin: auto;
 }
 /* Making sure that the text and headers are at the center*/
