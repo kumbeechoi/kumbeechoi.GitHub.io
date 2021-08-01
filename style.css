@@ -75,7 +75,7 @@ h4 {
   font-family: "Roboto Mono", monospace;
   font-size: 50px;
   text-align: center;
-  margin: 20px 0 0px 0px;
+  margin: auto;
 }
 
 p {
@@ -134,7 +134,6 @@ footer p {
 main > div > article {
   max-width: 80%;
   margin: auto;
-  text-align: center;
   overflow: visible;
   text-align: center;
 }
