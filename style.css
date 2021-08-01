@@ -1,162 +1,162 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Mono:wght@300&family=Zen+Tokyo+Zoo&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Mono:wght@300&family=Zen+Tokyo+Zoo&display=swap");
 /*I tried to use different fonts from Google*/
 
-
 html {
-    scroll-behavior: smooth;
-  }
-
-header {
-    background-color: burlywood;
-    padding: 0px 0 30px 0px;
-  }
-  
-header h1 {
-    margin: 0;
-    color: white;
-    font-family: 'Zen Tokyo Zoo', cursive;
-    font-size:50px;
-    text-align: center;
-    padding: 50px 0 0px 10px;
-  }/*for top header text only*/
-
-    
-header h2 {
-    margin: 0;
-    color: #242424;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
-    text-align: center;
-    padding: 10px 0 0px 0px;
-  } /*for top header text only*/
-
-body {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-  } /*I tried to put media at the center*/
-
-nav {
-    margin: 0;
-    color: #242424;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 15px;
-    text-align: center;
-    padding: 10px 0 0px 10px;
-  } /*for sending email*/
-
-
-h1 {
-    color: #242424;
-    font-family: 'Abril Fatface', cursive;
-    font-size: 30px;
-    text-align: left;
-    margin: 0;
-    padding: 10px;
-  }
-
-h2 {
-    color: #242424;
-    font-family: 'Abril Fatface', cursive;
-    font-size: 20px;
-    text-align: left;
-    margin: 0;
-    padding: 10px;
-  }
-
-h3 {
-    color: #242424;
-    font-family: 'Abril Fatface', cursive;
-    font-size: 25px;
-    text-align: center;
-    margin: 0;
-    padding: 30px 0 0px 0px;
-  }
-
-h4 {
-    color: #242424;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 50px;
-    text-align: center;
-    margin: 20px 0 0px 0px;
-    
-  }
-  
-p {
-    color: #242424;
-    font-family: 'Roboto Mono', monospace;
-    width: 70%;
-    text-align: left;
-    
-  }
-
-hr {
-    height: 0.5px;
-    background-color: #9BA17B;
-    margin-top: 70px;
-    margin-bottom: 40px;
-    width:40%
-  }
-
-a {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
-  }
-  
-  a:link    { color: blue;  }
-  a:visited { color: green;   }
-  a:hover   { color: blueviolet; }
-  a:active  { color: orange;  }
-
-li {
-    color: #242424;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 15px;
-    text-align: left;
-    max-width: 65%;
-  }
-
-footer {
-    background-color: burlywood;
-    padding: 40px 0 40px 0px;
-  }
-  
-footer p {
-    
-    color: #242424;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 15px;
-    text-align: center;
-    
-  }
-
-  main > div > article {
-    overflow: visible;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-  }
-  
-  main > div > article > section {
-    max-width: 80%;
-    margin-left: 300px;
-    margin-right: auto;
-    text-align: center;
-  } 
-/* Making sure that the text and headers are at the center*/
-
-.map-responsive{
-    overflow:visible;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+  scroll-behavior: smooth;
 }
 
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+header {
+  background-color: burlywood;
+  padding: 0px 0 30px 0px;
+}
+
+header h1 {
+  margin: 0;
+  color: white;
+  font-family: "Zen Tokyo Zoo", cursive;
+  font-size: 50px;
+  text-align: center;
+  padding: 50px 0 0px 10px;
+} /*for top header text only*/
+
+header h2 {
+  margin: 0;
+  color: #242424;
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 0 0px 0px;
+} /*for top header text only*/
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+} /*I tried to put media at the center*/
+
+nav {
+  margin: 0;
+  color: #242424;
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px 0 0px 10px;
+} /*for sending email*/
+
+h1 {
+  color: #242424;
+  font-family: "Abril Fatface", cursive;
+  font-size: 30px;
+  text-align: left;
+  margin: 0;
+  padding: 10px;
+}
+
+h2 {
+  color: #242424;
+  font-family: "Abril Fatface", cursive;
+  font-size: 20px;
+  text-align: left;
+  margin: 0;
+  padding: 10px;
+}
+
+h3 {
+  color: #242424;
+  font-family: "Abril Fatface", cursive;
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 30px 0 0px 0px;
+}
+
+h4 {
+  color: #242424;
+  font-family: "Roboto Mono", monospace;
+  font-size: 50px;
+  text-align: center;
+  margin: 20px 0 0px 0px;
+}
+
+p {
+  color: #242424;
+  font-family: "Roboto Mono", monospace;
+  width: 70%;
+  text-align: left;
+}
+
+hr {
+  height: 0.5px;
+  background-color: #9ba17b;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  width: 40%;
+}
+
+a {
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+}
+
+a:link {
+  color: blue;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: blueviolet;
+}
+a:active {
+  color: orange;
+}
+
+li {
+  color: #242424;
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+  text-align: left;
+  max-width: 65%;
+}
+
+footer {
+  background-color: burlywood;
+  padding: 40px 0 40px 0px;
+}
+
+footer p {
+  color: #242424;
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+  text-align: center;
+}
+
+main > div > article {
+  overflow: visible;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+main > div > article > section {
+  max-width: 80%;
+  margin: auto;
+  text-align: center;
+}
+/* Making sure that the text and headers are at the center*/
+
+.map-responsive {
+  overflow: visible;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
