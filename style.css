@@ -139,7 +139,7 @@ main > div > article {
 }
 
 main > div > article > section {
-  max-width: 100%;
+  
   margin: auto;
 }
 /* Making sure that the text and headers are at the center*/
