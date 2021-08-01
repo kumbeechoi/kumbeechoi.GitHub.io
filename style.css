@@ -134,16 +134,14 @@ footer p {
 }
 
 main > div > article {
-  max-width: 70%;
+  max-width: 50%;
   margin: auto;
   overflow: visible;
-  text-align: center;
 }
 
 main > div > article > section {
-  max-width: 70%;
+  max-width: 50%;
   margin: auto;
-  text-align: center;
 }
 /* Making sure that the text and headers are at the center*/
 
