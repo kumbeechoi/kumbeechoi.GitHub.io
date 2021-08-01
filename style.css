@@ -133,13 +133,13 @@ footer p {
 }
 
 main > div > article {
-  max-width: 100%;
+  max-width: 90%;
   margin: auto;
   overflow: visible;
 }
 
 main > div > article > section {
-  
+  max-width: 90%;
   margin: auto;
 }
 /* Making sure that the text and headers are at the center*/
